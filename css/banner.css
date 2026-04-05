@@ -2,15 +2,27 @@
     width: 100%;
     text-align: center;
     text-shadow: 0 0 1px;
-    background: url(../images/banner.png) no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    min-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.61);
+    min-height: 350px;
+}
+
+.face__banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.face__banner-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .face__banner-content {
@@ -18,6 +30,8 @@
     background-color: rgba(63, 62, 62, 0.562);
     padding: 25px;
     border-radius: 10px;
+    position: relative; 
+    z-index: 2;
 }
 
 .banner__title {
