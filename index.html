@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,62 @@
     <link rel="shortcut icon" href="ico/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <div class="header__logo-box">
+                    <a class="header__logo-box" href="#">
                         <img src="ico/logo.svg" alt="logo">
                         <span>ЛенОптика</span>
-                    </div>
+                    </a>
                     <nav class="header__nav">
                         <ul class="header__nav-list">
-                            <li class="header__nav-item">Главная</li>
-                            <li class="header__nav-item">Каталог</li>
-                            <li class="header__nav-item">Новинки</li>
-                            <li class="header__nav-item">Акции</li>
-                            <li class="header__nav-item">Запись к врачу</li>
-                            <li class="header__nav-item">Контакты</li>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Главная</li>
+                            </a>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Каталог</li>
+                            </a>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Новинки</li>
+                            </a>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Акции</li>
+                            </a>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Запись к врачу</li>
+                            </a>
+                            <a class="header__nav-link" href="#">
+                                <li class="header__nav-item">Контакты</li>
+                            </a>
                         </ul>
                     </nav>
                     <div class="header__button-box">
-                        <a class="header__buttons-btn">Войти</a>
-                        <a class="header__buttons-btn">Корзина <span>(0)</span></a>
+                        <a class="header__buttons-btn" href="#">Войти</a>
+                        <a class="header__buttons-btn" href="#">Корзина <span>(0)</span></a>
                     </div>
                 </div>
             </div>
         </header>
+        <main class="main">
+            <section class="banner">
+                <div class="container">
+                    <div class="banner__inner">
+                        <div class="banner__content">
+                            <div class="banner__content-text">
+                                <h2 class="banner__content-title">Сморти на мир кристально чисто</h2>
+                                <p class="banner__content-subtitle">Оправы специально для тебя</p>
+                            </div>
+                            <a class="banner__content-btn" href="#">Смотреть каталог</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     </div>
 </body>
+
 </html>
