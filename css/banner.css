@@ -8,6 +8,7 @@
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.61);
     min-height: 350px;
+    margin-bottom: 70px;
 }
 
 .face__banner-background {
@@ -35,14 +36,16 @@
 }
 
 .banner__title {
+    letter-spacing: 1.5px;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
 }
 
 .banner__subtitle {
     font-size: 16px;
-    margin-bottom: 18px;
+    margin-bottom: 28px;
 }
 
 .banner__btn {

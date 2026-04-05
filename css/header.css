@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 15px;
 }
 
 .header__logo-box {
@@ -19,6 +19,7 @@
     font-size: 36px;
     font-weight: 700;
     color: #2ce02cd5;
+    letter-spacing: 3px;
 }
 
 .header__logo-box span{
@@ -47,7 +48,7 @@
 }
 
 .header__nav-item:hover {
-    background-color: rgba(83, 83, 83, 0.493);
+    background-color: rgba(158, 158, 158, 0.493);
     font-weight: 700;
 }
 
@@ -61,6 +62,7 @@
     border-radius: 5px;
     white-space: nowrap;
     transition: all 0.2s;
+    font-weight: 700;
 }
 
 .header__buttons-btn:hover {

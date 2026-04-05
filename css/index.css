@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(banner.css);
+@import url(slider.css);
 
 @font-face {
     font-family: 'FreeMonos';
@@ -24,6 +25,7 @@
 html, body {
     font-family: 'FreeMonos', sans-serif;
     height: 100%;
+    line-height: 1.4;
 }
 
 ul, ol {
