@@ -1,14 +1,15 @@
-.slider__background {
+.carousel__background {
     background-color: rgb(236, 230, 230);
+    padding: 15px 0;
 }
 
-.face__slider {
+.face__carousel {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.face__slider-title {
+.face__carousel-title {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -16,20 +17,40 @@
 
 .face__slide-box {
     display: flex;
+    padding: 15px;
     justify-content: space-between;
     gap: 40px;
+    overflow: hidden;
 }
 
-.face__slider-slide {
+.face__carousel-slide {
     position: relative;
     border: 2px solid black;
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.2s;
+    user-select: none;
 }
 
-.face__slider-slide:hover {
+.hidden__slide {
+    display: none;
+}
+
+.face__carousel-slide:hover {
     transform: scale(1.05);
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px 2px rgba(22, 199, 31, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 12px 6px rgba(22, 199, 31, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 5px 2px rgba(22, 199, 31, 0.7);
+    }
 }
 
 .slide__img-box {
@@ -57,21 +78,22 @@
     font-size: 14px;
 }
 
-.slider__button-box {
+.carousel__button-box {
     padding-top: 20px;
     display: flex;
     gap: 90px;
 }
 
-.slider_button-btn {
+.carousel_button-btn {
     width: 50px;
     height: 50px;
     background-color: #d3d3d3;
     padding: 15px;
     border-radius: 50%;
     transition: all 0.2s;
+    user-select: none;
 }
 
-.slider_button-btn:hover {
+.carousel_button-btn:hover {
     background-color: #858585;
 }
