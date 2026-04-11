@@ -1,7 +1,8 @@
 export const initCarousel = () => {
     new Swiper('.Carousel', {
-        slidesPerView: 5,   
-        spaceBetween: 40,   
+        slidesPerView: 3.8,
+        centeredSlides: true, 
+        spaceBetween: 20,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -10,11 +11,11 @@ export const initCarousel = () => {
             el: '.swiper-pagination',
             clickable: true,
         },
-        loop: true,        
-        breakpoints: {      
-            320: { slidesPerView: 1 },
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 5 }
-        }
+        loop: true,
+        breakpoints: {
+            // 320: { slidesPerView: 1 },
+            // 640: { slidesPerView: 2 },
+            // 1024: { slidesPerView: 5 }
+        },
     });
 }
