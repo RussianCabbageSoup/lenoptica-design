@@ -13,10 +13,6 @@
     margin-bottom: 40px;
 }
 
-.face__carousel-title {
-    line-height: 1.2;
-}
-
 .swiper {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -29,6 +25,7 @@
     transition: all 0.3s;
     overflow: hidden;
     user-select: none;
+    transform: translateY(5px) !important;
 }
 
 .swiper-slide:hover {
@@ -118,7 +115,7 @@
 }
 
 .carousel__content {
-    max-width: 500px;
+    min-width: 500px;
     background: linear-gradient(135deg, #fff7ef 0%, #fff5ed 100%);
     border-radius: 10px;
     overflow: hidden;

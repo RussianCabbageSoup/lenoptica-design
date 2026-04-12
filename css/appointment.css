@@ -2,6 +2,7 @@
     display: flex;
     border-radius: 12px;
     overflow: hidden;
+    margin-bottom: 90px;
 }
 
 .appointment__content {
@@ -116,8 +117,6 @@
     font-weight: 700;
 }
 
-.appointment__text-value {}
-
 .appointment__contacts-button {
     display: flex;
     flex-direction: column;
@@ -126,7 +125,6 @@
     gap: 10px;
 }
 
-.appointment__button-btn {}
 
 .appointment__button-time {
     font-size: 12px;

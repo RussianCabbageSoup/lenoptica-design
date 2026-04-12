@@ -1,6 +1,6 @@
 export const initCarousel = () => {
     new Swiper('.Carousel', {
-        slidesPerView: 3.8,
+        slidesPerView: 2.5,
         centeredSlides: true, 
         spaceBetween: 20,
         navigation: {

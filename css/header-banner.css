@@ -28,7 +28,7 @@
 
 .face__banner-content {
     color: #FFF;
-    background-color: rgba(63, 62, 62, 0.562);
+    background-color: rgba(63, 62, 62, 0.575);
     padding: 25px;
     border-radius: 10px;
     position: relative; 
@@ -37,14 +37,14 @@
 
 .banner__title {
     letter-spacing: 1.5px;
-    font-size: 32px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 4px;
     text-transform: uppercase;
 }
 
 .banner__subtitle {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 28px;
 }
 
