@@ -2,7 +2,7 @@
     background: linear-gradient(#fff5ed, #fff);
     box-shadow: inset 0 5px 30px 0 rgba(0, 0, 0, 0.171);
     padding: 15px 0;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
 }
 
 .carousel__inner {
@@ -14,10 +14,7 @@
 }
 
 .face__carousel-title {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
+    line-height: 1.2;
 }
 
 .swiper {
@@ -122,25 +119,22 @@
 
 .carousel__content {
     max-width: 500px;
-    background: #fff;
+    background: linear-gradient(135deg, #fff7ef 0%, #fff5ed 100%);
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    gap: 30px;
+    align-items: flex-end;
     box-shadow: 0 5px 30px 12px rgba(0, 0, 0, 0.185);
 }
 
+.carousel__content-subtitle.subtitle{
+    margin-bottom: 0;
+}
+
 .carousel__content-title {
-    font-size: 48px;
     text-align: end;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    border-radius: 5px;
 }
 
 .carousel__content-title span {
@@ -151,6 +145,16 @@
     text-shadow: none;
 }
 
+.carousel__content-ico {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.carousel__content-ico img {
+    width: 50px;
+}
+
 .carousel__content-text {
     padding: 18px;
     border-right: 3px solid #e0aa7a;
@@ -159,31 +163,11 @@
     text-align: end;
     font-size: 1.2em;
     color: #5c4e42;
-}
-
-.carousel__content-text span {
-    font-weight: 700;
-    font-size: 1.4em;
-    color: #c53a1f;
+    margin-bottom: 30px;
 }
 
 .carousel__content-button {
     font-weight: 700;
     display: flex;
     gap: 10px;
-}
-
-.carousel__button-btn {
-    background: #3f3e3e;
-    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.2);
-    border-radius: 40px;
-    padding: 12px 18px;
-    color:#fff;
-    font-size: 1.4em;
-    transition: all 0.3s;
-}
-
-.carousel__button-btn:hover {
-    transform: translateY(-4px);
-    background: #000000;
 }

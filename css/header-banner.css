@@ -1,7 +1,7 @@
 .face__banner {
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 1px;
+    text-shadow: 0 0 1px white;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,7 +33,6 @@
     border-radius: 10px;
     position: relative; 
     z-index: 2;
-    text-shadow: 0 0 1.3px;
 }
 
 .banner__title {
@@ -45,20 +44,20 @@
 }
 
 .banner__subtitle {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 28px;
 }
 
-.banner__btn {
-    color: #FFF;
-    font-size: 16px;
-    padding: 12px 20px;
-    background-color: #C30000;
-    border-radius: 6px;
-    font-weight: 700;
-    transition: all 0.2s;
+.banner__btn-box {
+    display: flex;
+    justify-content: center;
 }
 
-.banner__btn:hover {
-    background-color: #9b0000;
+.banner__btn.button {
+    background-color: #C30000;
+}
+
+.banner__btn.button:hover {
+    transform: scale(0.98);
+    background-color: #7c0000;
 }

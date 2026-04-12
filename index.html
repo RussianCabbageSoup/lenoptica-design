@@ -60,7 +60,9 @@
                                 <h2 class="banner__title">Смотри на мир кристально чисто</h2>
                                 <p class="banner__subtitle">Оправы специально для тебя</p>
                             </div>
-                            <a class="banner__btn" href="#">Смотреть каталог</a>
+                            <div class="banner__btn-box">
+                                <a class="banner__btn button" href="#">Смотреть каталог</a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel__background">
@@ -153,16 +155,24 @@
                                     </div>
                                 </div>
                                 <div class="carousel__content">
-                                    <h2 class="carousel__content-title">Лидеры продаж за <span>всё время</span></h2>
+                                    <div class="carousel__content-subtitle subtitle">лучшее</div>
+                                    <h2 class="carousel__content-title title">Лидеры продаж за <span>всё время</span></h2>
+                                    <div class="carousel__content-ico">
+                                        <div class="carousel__ico-item">    
+                                            <img src="images/done.svg">
+                                        </div>
+                                        <div class="carousel__ico-item">    
+                                            <img src="images/award.svg">
+                                        </div>
+                                    </div>
                                     <div class="carousel__content-text">
                                         <p>
                                             Другие уже выбрали лучшее для себя. Присоединяйтесь к большинству довольных
                                             покупателей!
                                         </p>
-                                        <span>Скидки до 40%</span>
                                     </div>
                                     <div class="carousel__content-button">
-                                        <a href="#" class="carousel__button-btn">Узнать больше</a>
+                                        <a href="#" class="carousel__button-btn button">Узнать больше</a>
                                     </div>
                                 </div>
                             </div>
@@ -174,8 +184,8 @@
                 <div class="container">
                     <div class="seasonal__inner">
                         <div class="seasonal__content">
-                            <div class="seasonal__content-subtitle">весна 2026</div>
-                            <h2 class="seasonal__content-title">
+                            <div class="seasonal__content-subtitle subtitle">весна 2026</div>
+                            <h2 class="seasonal__content-title title">
                                 Солнцезащитные <span>очки</span>
                                 со скидкой до <span>40%</span>
                             </h2>
@@ -198,7 +208,7 @@
                                 </li>
                             </ul>
                             <div class="seasonal__button-box">
-                                <a href="#" class="seasonal__button-btn">Выбрать модель</a>
+                                <a href="#" class="seasonal__button-btn button">Выбрать модель</a>
                             </div>
                         </div>
                         <div class="seasonal__img">
@@ -213,40 +223,63 @@
                 <div class="container">
                     <div class="appointment__inner">
                         <div class="appointment__content">
-                            <div class="appointment__content-subtitle">
+                            <div class="appointment__content-subtitle subtitle">
                                 <span></span>
                                 Онлайн-запись 24/7
                             </div>
-                            <h2 class="appointment__content-title">
+                            <h2 class="appointment__content-title title">
                                 Запишитесь к врачу <span>без очередей</span>
                             </h2>
                             <div class="appointment__content-text">
-                                Опытные специалисты, современное оборудование и комфортные условия. Выберите удобный
+                                Опытные специалисты, овременное оборудование и комфортные условия. Выберите удобный
                                 способ связи, и мы подберем лучшее время для вашего визита.
                             </div>
                             <ul class="appointment__content-icons">
-                                <li class="appointment__icons-item"></li>
-                                <li class="appointment__icons-item"></li>
-                                <li class="appointment__icons-item"></li>
-                            </ul>
-                            <ul class="appointment__content-statistic">
-                                <li class="appointment__statistic-item">18 лет опыта</li>
-                                <li class="appointment__statistic-item">30000 выполненых заказов</li>
-                                <li class="appointment__statistic-item">30000 выполненых заказов</li>
+                                <li class="appointment__icons-item">
+                                    <img src="images/doctorsvg.svg">
+                                </li>
+                                <li class="appointment__icons-item">
+                                    <img src="images/calend.svg">
+                                </li>
+                                <li class="appointment__icons-item">
+                                    <img src="images/shield_icon.svg">
+                                </li>
                             </ul>
                         </div>
                         <div class="appointment__contacts">
                             <h3 class="appointment__contacts-title">Как записаться?</h3>
                             <h4 class="appointment__contacts-subtitle">Выберите удобный вариант — мы всё организуем</h4>
                             <ul class="appointment__contacts-list">
-                                <li class="appointment__contacts-item"></li>
-                                <li class="appointment__contacts-item"></li>
-                                <li class="appointment__contacts-item"></li>
-                                <li class="appointment__contacts-item"></li>
+                                <li class="appointment__contacts-item">
+                                    <div class="appointment__contacts-img">
+                                        <img src="images/phone.svg">
+                                    </div>
+                                    <div class="appointment__item-text">
+                                        <div class="appointment__text-key">Позвоните нам</div>
+                                        <div class="appointment__text-value">+0 (000) 000-00-00</div>
+                                    </div>
+                                </li>
+                                <li class="appointment__contacts-item">
+                                    <div class="appointment__contacts-img">
+                                        <img src="images/msg.svg">
+                                    </div>
+                                    <div class="appointment__item-text">
+                                        <div class="appointment__text-key">Max</div>
+                                        <div class="appointment__text-value">Напишите в мессенджер</div>
+                                    </div>
+                                </li>
+                                <li class="appointment__contacts-item">
+                                    <div class="appointment__contacts-img">
+                                        <img src="images/mail.svg">
+                                    </div>
+                                    <div class="appointment__item-text">
+                                        <div class="appointment__text-key">Электронная почта</div>
+                                        <div class="appointment__text-value">mail@mail.ru</div>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="appointment__contacts-button">
-                                <a href="#" class="appointment__button-btn">
-                                    <span></span>
+                                <a href="#" class="appointment__button-btn button">
                                     Заказать обратный звонок
                                 </a>
                                 <p class="appointment__button-time">Работаем ежедневно с 8:00 до 21:00</p>
