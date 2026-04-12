@@ -31,17 +31,63 @@
 
 .seasonal__content-title {
     font-size: 52px;
+    max-width: 640px;
+    margin-bottom: 16px;
 }
 
-.seasonal__content-promotion {}
+.seasonal__content-title span {
+    background: linear-gradient(120deg, #d97742, #c73b1e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
-.seasonal__promotion-list {}
+.seasonal__content-promotion {
+    margin-bottom: 30px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #fff0e1 0%, #fff0e1 100%);
+    border-left: 3px solid #e0aa7a;
+    border-radius: 0 10px 10px 10px;
+}
 
-.seasonal__promotion-item {}
+.seasonal__promotion-list {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
 
-.seasonal__button-box {}
+.seasonal__promotion-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-.seasonal__button-btn {}
+.seasonal__promotion-item img {
+    width: 20px;
+}
+
+.seasonal__button-box {
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
+
+.seasonal__button-btn {
+    background: #3f3e3e;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 12px 18px;
+    color:#fff;
+    font-size: 1.4em;
+    transition: all 0.3s;
+}
+
+.seasonal__button-btn:hover {
+    transform: translateY(-4px);
+    background: #000000;
+}
 
 .seasonal__img {
     background-color: #f1e2d4;
