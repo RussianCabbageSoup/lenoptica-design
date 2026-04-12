@@ -27,6 +27,7 @@ html, body {
     font-family: 'FreeMonos', sans-serif;
     height: 100%;
     line-height: 1.4;
+    color: #2c221b;
 }
 
 ul, ol {
@@ -35,7 +36,7 @@ ul, ol {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #2c221b;
 }
 
 .wrapper {
@@ -49,4 +50,8 @@ a {
     padding: 0 15px;
     margin: 0 auto;
     height: 100%;
+}
+
+.w1 {
+    max-width: 1700px;
 }

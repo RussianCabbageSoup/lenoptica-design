@@ -5,6 +5,14 @@
     margin-bottom: 150px;
 }
 
+.carousel__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
 .face__carousel-title {
     font-size: 32px;
     font-weight: 700;
@@ -13,8 +21,7 @@
 }
 
 .swiper {
-    margin-bottom: 40px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 
 }
@@ -117,4 +124,73 @@
 
 .swiper-pagination-bullet-active {
     background: black !important;
+}
+
+.carousel__content {
+    max-width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    box-shadow: 0 5px 30px 12px rgba(0, 0, 0, 0.185);
+}
+
+.carousel__content-title {
+    font-size: 48px;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.carousel__content-title span {
+    background: linear-gradient(120deg, #d97742, #c73b1e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: none;
+}
+
+.carousel__content-text {
+    padding: 18px;
+    border-right: 3px solid #e0aa7a;
+    border-radius: 15px;
+    letter-spacing: 0.5px;
+    text-align: end;
+    font-size: 1.2em;
+    color: #5c4e42;
+}
+
+.carousel__content-text span {
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #c53a1f;
+}
+
+.carousel__content-button {
+    padding: 8px 12px;
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
+
+.carousel__button-btn {
+    background: #3f3e3e;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 5px 12px;
+    color:#fff;
+    font-size: 1.4em;
+    transition: all 0.3s;
+}
+
+.carousel__button-btn:hover {
+    transform: translateY(-4px);
+    background: #000000;
 }
