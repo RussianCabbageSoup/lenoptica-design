@@ -40,13 +40,13 @@
     display: flex;
 }
 
-.header__nav-item {
+.header__nav-link {
     padding: 8px 12px;
     border-radius: 4px;
     transition: all 0.2s;
 }
 
-.header__nav-item:hover {
+.header__nav-link:hover {
     background-color: rgba(158, 158, 158, 0.493);
     font-weight: 700;
 }

@@ -1,7 +1,8 @@
-@import url(header.css);
-@import url(banner.css);
+@import url(header-nav.css);
+@import url(header-banner.css);
 @import url(slider.css);
 @import url(seasonal.css);
+@import url(appointment.css);
 
 @font-face {
     font-family: 'FreeMonos';
