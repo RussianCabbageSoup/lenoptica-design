@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #fff7ef 0%, #fff5ed 100%);
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     gap: 40px;
 }
 
@@ -113,15 +113,12 @@
 
 .about__item-ico img {
     width: 50px;
+    display: block;
 }
-
-.about__item-text {}
 
 .about__item-key {
     font-weight: 700;
 }
-
-.about__item-value {}
 
 .about__content-separate {
     align-self: center;
@@ -141,8 +138,6 @@
     margin-bottom: 40px;
 }
 
-.about__achievements-item {}
-
 .about__item-stat {
     line-height: 1;
 }
@@ -160,7 +155,3 @@
 .about__content-button {
     display: flex;
 }
-
-.about__button-btn {}
-
-.button {}

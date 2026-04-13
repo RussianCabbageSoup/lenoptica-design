@@ -2,7 +2,7 @@
     display: flex;
     border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .seasonal__content {
@@ -46,6 +46,7 @@
 
 .seasonal__promotion-item img {
     width: 20px;
+    display: block;
 }
 
 .seasonal__button-box {
