@@ -3,6 +3,7 @@
 @import url(slider.css);
 @import url(seasonal.css);
 @import url(appointment.css);
+@import url(about.css);
 
 @font-face {
     font-family: 'FreeMonos';
@@ -18,25 +19,14 @@
     font-style: normal;
 }
 
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: #2c221b; }
 
 html, body {
     font-family: 'FreeMonos', sans-serif;
     height: 100%;
     line-height: 1.4;
-    color: #2c221b;
-}
-
-ul, ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
     color: #2c221b;
 }
 
