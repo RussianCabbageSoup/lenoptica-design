@@ -1,0 +1,97 @@
+.footer {
+    background: linear-gradient(#ffecd9 0%, #fff5ed 100%);
+}
+
+.footer__inner {
+    font-style: 14px;
+    padding-top: 15px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.footer__about-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2ce02cd5;
+    letter-spacing: 2px;
+}
+
+.footer__about-logo img {
+    width: 40px;
+    display: block;
+}
+
+.footer__about-text {
+    margin-bottom: 20px;
+}
+
+.footer__about-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__about-link img {
+    width: 30px;
+    display: block;
+}
+
+.footer__top-col {
+    padding: 0 15px;
+}
+
+.footer__col-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 18px;
+}
+
+.footer__col-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__list-item {
+    display: flex;
+    white-space: nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer__list-item img {
+    width: 20px;
+    display: block;
+}
+
+.footer__subscription-text {
+    margin-bottom: 20px;
+}
+
+.footer__subscription-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    box-shadow: 0 0 12px 0 black;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.footer__subscription-form input,
+.footer__subscription-form button {
+    border: none;
+    outline: none;
+}
+
+.footer__bottom {
+    text-align: center;
+}

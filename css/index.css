@@ -1,10 +1,11 @@
 @import url(header-nav.css);
 @import url(header-banner.css);
-@import url(slider.css);
 @import url(seasonal.css);
+@import url(slider.css);
 @import url(appointment.css);
 @import url(about.css);
 @import url(contacts.css);
+@import url(footer.css);
 
 @font-face {
     font-family: 'FreeMonos';
@@ -23,6 +24,7 @@
 * { padding: 0px; margin: 0px; box-sizing: border-box; }
 ul, ol { list-style: none; }
 a { text-decoration: none; color: #2c221b; }
+img { display: block; }
 
 html, body {
     font-family: 'FreeMonos', sans-serif;
