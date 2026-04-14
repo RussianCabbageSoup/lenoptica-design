@@ -186,6 +186,7 @@
 @media (max-width: 650px) {
     .carousel__inner {
         gap: 0;
+        margin-bottom: 40px;
     }
     .carousel__content-title.title {
         font-size: 40px;

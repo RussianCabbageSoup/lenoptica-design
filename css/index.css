@@ -21,7 +21,7 @@
 }
 
 * { padding: 0px; margin: 0px; box-sizing: border-box; }
-ul, ol { list-style: none; }
+ul, ol { list-style: none; padding-left: 0;}
 a { text-decoration: none; color: #2c221b; }
 img { display: block; }
 input, textarea, button {border: none; outline: none; background: none;}
