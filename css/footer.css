@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(#ffecd9 0%, #fff5ed 100%);
+    box-shadow: 0 -10px 35px 12px rgba(27, 6, 6, 0.185);
 }
 
 .footer__inner {
@@ -19,15 +19,21 @@
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #2ce02cd5;
-    letter-spacing: 2px;
 }
 
 .footer__about-logo img {
     width: 40px;
     display: block;
+}
+
+.footer__about-logo span {
+    background: linear-gradient(120deg, #d9a442, #c7701e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 24px;
 }
 
 .footer__about-text {
@@ -36,7 +42,7 @@
 
 .footer__about-icons {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .footer__about-link img {
@@ -81,15 +87,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px;
-    box-shadow: 0 0 12px 0 black;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 30px;
-}
-
-.footer__subscription-form input,
-.footer__subscription-form button {
-    border: none;
-    outline: none;
 }
 
 .footer__bottom {

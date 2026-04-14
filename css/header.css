@@ -1,0 +1,131 @@
+.header {
+    box-shadow: 0 10px 35px 12px rgba(27, 6, 6, 0.185);
+}
+
+.header__inner {
+    padding: 30px 0 15px 0;
+    margin-bottom: 100px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header__top-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 1;
+    border: 1px solid #e0aa7a;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 12px 0 #e0aa7a;
+}
+
+.header__logo-img img {
+    width: 50px;
+}
+
+.header__logo-name {
+    background: linear-gradient(120deg, #d9a442, #c7701e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.header__logo-name span {
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+}
+
+.header__top-search {
+    width: 30%;
+}
+
+.header__search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.555);
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.header__form-input {
+    width: 100%;
+}
+
+.header__form-btn img {
+    width: 20px;
+}
+
+.header__top-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.header__top-icons img {
+    width: 30px;
+}
+
+.header__icons-box {
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.header__icons-box:hover {
+    background-color: #c7352b59;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.header__nav-item {
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.header__nav-item:hover {
+    background-color: #c7352b59;
+    font-weight: 700;
+}
+
+.header__bottom-promotion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    align-items: center;
+    padding: 4px 20px;
+    background: rgba(235, 87, 87, 0.12);
+    backdrop-filter: blur(2px);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #c7362b;
+    border: 1px solid rgba(199, 54, 43, 0.2);
+    text-transform: uppercase;
+}
+
+.header__promotion-ico img {
+    width: 20px;
+}

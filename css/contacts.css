@@ -110,6 +110,7 @@
 }
 
 .contacts__form-textarea {
+    background: #fff;
     resize: vertical;
     min-height: 100px;
     border-radius: 16px;

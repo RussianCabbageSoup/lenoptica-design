@@ -1,5 +1,4 @@
-@import url(header-nav.css);
-@import url(header-banner.css);
+@import url(header.css);
 @import url(seasonal.css);
 @import url(slider.css);
 @import url(appointment.css);
@@ -25,6 +24,7 @@
 ul, ol { list-style: none; }
 a { text-decoration: none; color: #2c221b; }
 img { display: block; }
+input, textarea, button {border: none; outline: none; background: none;}
 
 html, body {
     font-family: 'FreeMonos', sans-serif;
