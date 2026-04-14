@@ -13,9 +13,8 @@ export const initCarousel = () => {
         },
         loop: true,
         breakpoints: {
-            // 320: { slidesPerView: 1 },
-            // 640: { slidesPerView: 2 },
-            // 1024: { slidesPerView: 5 }
+            850: { slidesPerView: 4 },
+            1024: { slidesPerView: 1.5 },
         },
     });
 }

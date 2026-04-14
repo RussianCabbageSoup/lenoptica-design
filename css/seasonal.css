@@ -91,10 +91,22 @@
 @media (max-width: 1000px) {
     .seasonal__inner {
         flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .seasonal__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
 
 @media (max-width: 600px) {
+    .seasonal__inner {
+        margin-bottom: 20px;
+    }
     .seasonal__img {
         display: none;
     }
