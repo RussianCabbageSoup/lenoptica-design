@@ -1,5 +1,6 @@
 .footer {
     box-shadow: 0 -10px 35px 12px rgba(27, 6, 6, 0.185);
+    margin-top: auto;
 }
 
 .footer__inner {

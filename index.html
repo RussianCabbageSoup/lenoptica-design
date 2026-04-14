@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЛенОптика</title>
     <link rel="shortcut icon" href="images/logo/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -15,6 +16,97 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
+                    <div class="mobile-header d-lg-none">
+                        <div class="mobile-header__bar">
+                            <button class="burger-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#burgerMenu" aria-controls="burgerMenu">
+                                <span class="burger-icon"></span>
+                                <span class="burger-icon"></span>
+                                <span class="burger-icon"></span>
+                            </button>
+
+                            <a href="#" class="mobile-logo">
+                                <div class="mobile-logo-img">
+                                    <img src="images/logo/logo.svg" alt="логотип">
+                                </div>
+                                <div class="mobile-logo-name">
+                                    <p>ЛенОптика</p>
+                                    <span>салон оптики</span>
+                                </div>
+                            </a>
+
+                            <div class="mobile-icons">
+                                <div class="mobile-icons-box">
+                                    <img src="images/control/heart.svg" alt="избранное">
+                                </div>
+                                <div class="mobile-icons-box">
+                                    <img src="images/control/shoppingbag_84031.svg" alt="корзина">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Offcanvas меню (Bootstrap) -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="burgerMenu"
+                        aria-labelledby="burgerMenuLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-logo">
+                                <img src="images/logo/logo.svg" alt="логотип">
+                                <div>
+                                    <p>ЛенОптика</p>
+                                    <span>салон оптики</span>
+                                </div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Закрыть"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <!-- Поиск в меню -->
+                            <form class="mobile-search-form">
+                                <input class="mobile-search-input" type="text" placeholder="Поиск товаров...">
+                                <button class="mobile-search-btn" type="submit">
+                                    <img src="images/control/magnifier.svg" alt="поиск">
+                                </button>
+                            </form>
+
+                            <!-- Навигация -->
+                            <ul class="mobile-nav-list">
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Главная</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Каталог</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Проверка зрения</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">О нас</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+
+                            <!-- Пользовательские иконки -->
+                            <div class="mobile-user-actions">
+                                <a href="#" class="mobile-user-link">
+                                    <img src="images/control/user.svg" alt="профиль">
+                                    <span>Личный кабинет</span>
+                                </a>
+                            </div>
+
+                            <!-- Акция -->
+                            <div class="mobile-promotion">
+                                <div class="mobile-promotion-ico">
+                                    <img src="images/icons/promotion.svg" alt="акция">
+                                </div>
+                                <div class="mobile-promotion-text">
+                                    Скидка 15% на первый заказ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="header__top">
                         <a href="#" class="header__top-logo">
                             <div class="header__logo-img">
@@ -27,11 +119,8 @@
                         </a>
                         <div class="header__top-search">
                             <form class="header__search-form">
-                                <input 
-                                    class="header__form-input" 
-                                    type="text"
-                                    placeholder="Поиск товаров, брендов или категорий..."
-                                >
+                                <input class="header__form-input" type="text"
+                                    placeholder="Поиск товаров, брендов или категорий...">
                                 <button class="header__form-btn" type="submit">
                                     <img src="images/control/magnifier.svg">
                                 </button>
@@ -597,6 +686,7 @@
         </footer>
     </div>
 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="js/main.js"></script>
 </body>

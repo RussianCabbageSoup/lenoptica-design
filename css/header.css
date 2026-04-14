@@ -129,3 +129,256 @@
 .header__promotion-ico img {
     width: 20px;
 }
+
+@media (max-width: 900px) {
+    .header__top,
+    .header__bottom {
+        display: none;
+    }
+}
+
+/* ========== МОБИЛЬНОЕ МЕНЮ ========== */
+
+.mobile-header {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.mobile-header__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Бургер-кнопка */
+.burger-btn {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.burger-btn:hover {
+    background-color: #c7352b20;
+}
+
+.burger-icon {
+    width: 24px;
+    height: 2px;
+    background-color: #2c221b;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.mobile-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.mobile-logo-img img {
+    width: 40px;
+}
+
+.mobile-logo-name p {
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(120deg, #d9a442, #c7701e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1;
+}
+
+.mobile-logo-name span {
+    font-size: 10px;
+    color: #2c221b;
+    font-weight: 400;
+}
+
+.mobile-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.mobile-icons-box {
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.mobile-icons-box:hover {
+    background-color: #c7352b59;
+}
+
+.mobile-icons-box img {
+    width: 24px;
+}
+
+.offcanvas {
+    max-width: 320px;
+    background: #fff;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding: 20px;
+}
+
+.offcanvas-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.offcanvas-logo img {
+    width: 45px;
+}
+
+.offcanvas-logo p {
+    font-weight: 700;
+    font-size: 22px;
+    background: linear-gradient(120deg, #d9a442, #c7701e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1;
+    margin: 0;
+}
+
+.offcanvas-logo span {
+    font-size: 10px;
+    color: #2c221b;
+}
+
+.btn-close {
+    background-size: 14px;
+}
+
+.mobile-search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.555);
+    border-radius: 30px;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.mobile-search-input {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.mobile-search-input::placeholder {
+    color: #999;
+}
+
+.mobile-search-btn img {
+    width: 18px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.mobile-nav-item {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.mobile-nav-link {
+    display: block;
+    padding: 14px;
+    color: #2c221b;
+    transition: all 0.3s;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.mobile-nav-link:hover {
+    background-color: #c7352b59;
+    font-weight: 700;
+}
+
+.mobile-user-actions {
+    margin-bottom: 25px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.mobile-user-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    color: #2c221b;
+    transition: all 0.3s;
+}
+
+.mobile-user-link:hover {
+    color: #c7362b;
+}
+
+.mobile-user-link img {
+    width: 22px;
+}
+
+.mobile-promotion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: rgba(235, 87, 87, 0.12);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    color: #c7362b;
+    border: 1px solid rgba(199, 54, 43, 0.2);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.mobile-promotion-ico img {
+    width: 18px;
+}
+
+@media (max-width: 1000px) {
+    .header__top,
+    .header__bottom {
+        display: none;
+    }
+    
+    .header__inner {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .mobile-header {
+        display: block;
+    }
+}
+
+@media (min-width: 1001px) {
+    .mobile-header {
+        display: none;
+    }
+}
