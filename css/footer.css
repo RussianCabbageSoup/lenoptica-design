@@ -28,13 +28,8 @@
 }
 
 .footer__about-logo span {
-    background: linear-gradient(120deg, #d9a442, #c7701e);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
     font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .footer__about-text {
