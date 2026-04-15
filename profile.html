@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛенОптика</title>
+    <link rel="shortcut icon" href="images/logo/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="mobile-header d-lg-none">
+                        <div class="mobile-header__bar">
+                            <button class="burger-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#burgerMenu" aria-controls="burgerMenu">
+                                <span class="burger-icon"></span>
+                                <span class="burger-icon"></span>
+                                <span class="burger-icon"></span>
+                            </button>
+
+                            <a href="#" class="mobile-logo">
+                                <div class="mobile-logo-img">
+                                    <img src="images/logo/logo.svg" alt="логотип">
+                                </div>
+                                <div class="mobile-logo-name">
+                                    <p>ЛенОптика</p>
+                                    <span>салон оптики</span>
+                                </div>
+                            </a>
+
+                            <div class="mobile-icons">
+                                <div class="mobile-icons-box">
+                                    <img src="images/control/heart.svg" alt="избранное">
+                                </div>
+                                <div class="mobile-icons-box">
+                                    <img src="images/control/shoppingbag_84031.svg" alt="корзина">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="burgerMenu"
+                        aria-labelledby="burgerMenuLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-logo">
+                                <img src="images/logo/logo.svg" alt="логотип">
+                                <div>
+                                    <p>ЛенОптика</p>
+                                    <span>салон оптики</span>
+                                </div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Закрыть"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <!-- Поиск в меню -->
+                            <form class="mobile-search-form">
+                                <input class="mobile-search-input" type="text" placeholder="Поиск товаров...">
+                                <button class="mobile-search-btn" type="submit">
+                                    <img src="images/control/magnifier.svg" alt="поиск">
+                                </button>
+                            </form>
+
+                            <ul class="mobile-nav-list">
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Главная</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Каталог</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Проверка зрения</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">О нас</a>
+                                </li>
+                                <li class="mobile-nav-item">
+                                    <a class="mobile-nav-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+
+                            <div class="mobile-user-actions">
+                                <a href="#" class="mobile-user-link">
+                                    <img src="images/control/user.svg" alt="профиль">
+                                    <span>Личный кабинет</span>
+                                </a>
+                            </div>
+
+                            <div class="mobile-promotion">
+                                <div class="mobile-promotion-ico">
+                                    <img src="images/icons/promotion.svg" alt="акция">
+                                </div>
+                                <div class="mobile-promotion-text">
+                                    Скидка 15% на первый заказ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__top">
+                        <a href="index.html" class="header__top-logo">
+                            <div class="header__logo-img">
+                                <img src="images/logo/logo.svg" alt="логотип">
+                            </div>
+                            <div class="header__logo-name">
+                                <p>ЛенОптика</p>
+                                <span>салон оптики</span>
+                            </div>
+                        </a>
+                        <div class="header__top-search">
+                            <form class="header__search-form">
+                                <input class="header__form-input" type="text"
+                                    placeholder="Поиск товаров, брендов или категорий...">
+                                <button class="header__form-btn" type="submit">
+                                    <img src="images/control/magnifier.svg">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="header__top-icons">
+                            <div class="header__icons-box">
+                                <img src="images/control/heart.svg">
+                            </div>
+                            <a class="header__icons-box" href="profile.html">
+                                <img src="images/control/user.svg">
+                            </a>
+                            <div class="header__icons-box">
+                                <img src="images/control/shoppingbag_84031.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__bottom">
+                        <nav class="header__bottom-nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Главная</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="store.html">Каталог</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Проверка зрения</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">О нас</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__bottom-promotion">
+                            <div class="header__promotion-ico">
+                                <img src="images/icons/promotion.svg">
+                            </div>
+                            <div class="header__promotion-text">
+                                Скидка 15% на первый заказ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="profile">
+                <div class="container">
+                    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__top-about">
+                            <a class="footer__about-logo" href="#">
+                                <img src="images/logo/logo.svg">
+                                <span>ЛенОптика</span>
+                            </a>
+                            <p class="footer__about-text">
+                                Салон оптики с 18-летней историей.
+                                Помогаем видеть мир ярче и чётче.
+                            </p>
+                            <div class="footer__about-icons">
+                                <a href="#" class="footer__about-link">
+                                    <img src="images/icons/telegram_logo_icon_144811.svg">
+                                </a>
+                                <a href="#" class="footer__about-link">
+                                    <img src="images/icons/Max_logo_black-512x512.png">
+                                </a>
+                                <a href="#" class="footer__about-link">
+                                    <img src="images/icons/VK.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__top-col">
+                            <div class="footer__col-title">Информация</div>
+                            <ul class="footer__col-list">
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">О компании</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Запись на приём</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Возврат и обмен</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-col">
+                            <div class="footer__col-title">Каталог</div>
+                            <ul class="footer__col-list">
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Солнцезащитные очки</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Корригирующие очки</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Линзы</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">Аксессуары</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-col">
+                            <div class="footer__col-title">Контакты</div>
+                            <ul class="footer__col-list">
+                                <li class="footer__list-item">
+                                    <img src="images/icons/phone.svg">
+                                    +0 (000) 000-00-00
+                                </li>
+                                <li class="footer__list-item">
+                                    <img src="images/icons/mail.svg">
+                                    mail@mail.ru
+                                </li>
+                                <li class="footer__list-item">
+                                    <img src="images/icons/pin.svg">
+                                    СПб, Приморский пр. 72
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-subscription">
+                            <div class="footer__col-title">Будьте в курсе</div>
+                            <p class="footer__subscription-text">
+                                Подпишитесь на новости и получите скидку 5% на первый заказ
+                            </p>
+                            <form class="footer__subscription-form">
+                                <input type="email" placeholder="Ваш E-mail">
+                                <button type="submit">
+                                    <img src="images/control/Arrow2.svg" alt="Отправить">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        © 2026 ЛенОптика. Все права защищены.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
