@@ -40,6 +40,10 @@
     font-size: 28px;
 }
 
+.header__logo-name p {
+    margin-bottom: 0;
+}
+
 .header__logo-name span {
     font-size: 12px;
     color: #000;
