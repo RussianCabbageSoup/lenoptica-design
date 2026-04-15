@@ -24,13 +24,6 @@
     display: flex;
 }
 
-.hero__img {
-    background-color: #f1e2d4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero__img-box {
     overflow: hidden;
     width: 100%;
