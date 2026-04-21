@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <div class="container mt-5 text-center">
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#regModal">
+            1
+        </button>
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#loginModal">
+            2
+        </button>
+    </div>
+
+    <div class="modal fade" id="regModal" tabindex="-1" aria-labelledby="regModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal__content-head">
+                    <h2 class="modal__content-title">Регистрация</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <form class="modal__content-form">
+                    <div class="modal__form-input">
+                        <img src="images/icons/person_110935.svg">
+                        <input type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="modal__form-input">
+                        <img src="images/icons/mail.svg">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="modal__form-input">
+                        <img src="images/icons/key_106480.svg">
+                        <input type="password" placeholder="Пароль">
+                    </div>
+                    <div class="modal__form-input">
+                        <img src="images/icons/key_106480.svg">
+                        <input type="password" placeholder="Подтвердите пароль">
+                    </div>
+                    <div class="modal__form-buttons">
+                        <button class="button">Отмена</button>
+                        <button class="button" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal__content-head">
+                    <h2 class="modal__content-title">Вход</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <form class="modal__content-form">
+                    <div class="modal__form-input">
+                        <img src="images/icons/mail.svg">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="modal__form-input">
+                        <img src="images/icons/key_106480.svg">
+                        <input type="password" placeholder="Пароль">
+                    </div>
+                    <div class="modal__form-buttons">
+                        <button class="button">Отмена</button>
+                        <button class="button" type="submit">Войти</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
